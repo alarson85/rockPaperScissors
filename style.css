@@ -25,3 +25,43 @@ body {
 	margin: 1em 12em;
 	border-radius: .5em;
 }
+
+.timer {
+	background-color: rgba(0,0,0,.5);
+	margin: 1em 20em;
+	border-radius: .5em;
+}
+
+.timeText {
+	color: black;
+}
+
+input[type="text"] {
+    height: 1.5em;
+    margin-bottom: .5em;
+}
+
+.timeButton {
+	background-color: black;
+	border: none;
+	color: white;
+	margin: .5em 0;
+}
+
+.handBox {
+	display: inline-block;
+	border: 3px solid white;
+	border-radius: .5em;
+	padding: .3em;
+}
+
+.playerBox {
+	float: left;
+	margin-left: 20%;
+}
+
+.opponentBox {
+	height: 11em;
+	float: right;
+	margin-right: 20%;
+}
